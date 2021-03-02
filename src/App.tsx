@@ -23,6 +23,7 @@ const Collectibles = lazy(() => import('./views/Collectibles'))
 const Teams = lazy(() => import('./views/Teams'))
 const Team = lazy(() => import('./views/Teams/Team'))
 const Profile = lazy(() => import('./views/Profile'))
+const Market = lazy(() => import('./views/Market'))
 
 // This config is required for number formating
 BigNumber.config({
@@ -63,6 +64,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/pools">
               <Pools />
+            </Route>
+            <Route path="/purchase">
+              <Market />
             </Route>
             <Route path="/lottery">
               <Lottery />
