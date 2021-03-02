@@ -23,8 +23,8 @@ const TotalValueLockedCard = () => {
         </Heading>
         {data ? (
           <>
-            <Heading size="xl">{`$${tvl}`}</Heading>
-            <Text color="textSubtle">{TranslateString(764, 'Across all LPs and Syrup Pools')}</Text>
+            <Heading size="xl">Coming Soon</Heading>
+            <Text color="textSubtle">{TranslateString(764, 'Across all LPs and GME Pools')}</Text>
           </>
         ) : (
           <>

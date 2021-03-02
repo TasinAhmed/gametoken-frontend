@@ -31,6 +31,11 @@ const config: MenuEntry[] = [
     href: '/pools',
   },
   {
+    label: 'Market',
+    icon: 'IfoIcon',
+    items: [{ label: 'Purchase Key', href: '/purchase' }],
+  },
+  {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
