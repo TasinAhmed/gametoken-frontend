@@ -72,7 +72,7 @@ const CTACards = styled(BaseLayout)`
 
   ${({ theme }) => theme.mediaQueries.lg} {
     & > div {
-      grid-column: span 4;
+      grid-column: span 6;
     }
   }
 `
@@ -96,7 +96,6 @@ const Home: React.FC = () => {
         <CTACards>
           <EarnAPYCard />
           <EarnAssetCard />
-          <WinCard />
         </CTACards>
         <Cards>
           <CakeStats />
